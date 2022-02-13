@@ -1,0 +1,168 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 5px;
+   }
+
+/* For mobile phones: */
+[class*="col-"] {
+    float: left;
+	border: 1px solid darkgray;
+	width: 100%; /* mobile first - 100% width */
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones and tablets: */
+    [class*="col-4"] {
+        width: 100%;
+        padding: 5px;
+    }
+    .row {
+        width: 100%;
+    }
+
+    .col-12 {
+        width: 100%;
+    }
+
+    .col-8 {
+        width: 66.66%;
+    }
+
+    .col-4 {
+        width: 33.33%;
+    }
+} 
+
+@media only screen and (min-width: 768px) {
+    .row {
+        width: 100%;
+    }
+
+    .col-12 {
+        width: 100%;
+    }
+
+    .col-8 {
+        width: 66.66%;
+    }
+
+    .col-4 {
+        width: 33.33%;
+    }
+}
+
+.content {
+    display: block;
+    margin-bottom: 22px;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+    width: 400px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.foot {
+    margin-bottom: 22px;
+    padding: 20px;
+    margin: 0 auto;
+    width: 300;
+    background-color: darkgrey;
+    text-align:center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.left {
+    float: left;
+    text-align: left;
+    position: left;
+}
+
+.next {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    padding: 20px;
+}
+
+
+h1 {
+    color: #326845;
+    margin-bottom: 22px;
+    display: block;
+    text-align: center;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h2 {
+    color: #326872;
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h3 {
+    color: #33A1C9;
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+nav {
+    font-size: 18px;
+    float: left;
+    padding: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
