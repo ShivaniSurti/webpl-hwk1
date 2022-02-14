@@ -112,10 +112,11 @@ table {
 }
 
 .foot {
+    display: block;
     margin-bottom: 22px;
     padding: 20px;
     margin: 0 auto;
-    width: 300;
+    width: 300px;
     background-color: darkgrey;
     text-align:center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
